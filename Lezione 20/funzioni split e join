@@ -1,0 +1,26 @@
+#entrambe le funzioni SPLIT e JOIN sono NON-PURE; ovvero la stringa/lista iniziale non viene modificata
+
+#funzione SPLIT -   converte una stringa in una lista
+s = "Said the straight man"
+words = s.split()
+print(words)
+
+words = s.split("st")   #"st" viene usato come separatore (escludendolo)
+print(words)
+
+
+
+
+
+#funzione JOIN  -   l'inversa di split
+words = ["to", "the", "late", "man"]
+
+g = ";" #separatore
+
+s1 = g.join(words)
+print(s1)
+
+#oppure
+print("-".join(words))
+print("".join(words))
+print(" ".join(words))

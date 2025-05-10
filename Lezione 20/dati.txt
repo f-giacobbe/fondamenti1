@@ -1,0 +1,2 @@
+Questo è ciò che c'è scritto dentro il file dati.txt (linea 1)
+Questa è invece la seconda linea di testo
